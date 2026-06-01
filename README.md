@@ -2,10 +2,12 @@
 
 Sistema web em Streamlit para localização de fissuras e trincas em paredes usando YOLOv8-seg.
 
-## Estrutura 
+## Estrutura esperada
+
+Coloque o dataset fornecido dentro da pasta:
 
 ```text
-fissuramap/
+fissuramap_desafio2/
 ├── dataset/
 │   ├── images/
 │   └── labels/
@@ -20,7 +22,7 @@ fissuramap/
 
 ## Rodar no Google Colab
 
-1. Suba a pasta `fissuramap` para o Google Drive.
+1. Suba a pasta `fissuramap_desafio2` para o Google Drive.
 2. No Colab, ative GPU: `Ambiente de execução > Alterar tipo de ambiente de execução > GPU`.
 3. Execute:
 
@@ -30,7 +32,7 @@ drive.mount('/content/drive')
 ```
 
 ```python
-%cd /content/drive/MyDrive/fissuramap
+%cd /content/drive/MyDrive/fissuramap_desafio2
 ```
 
 ```python
